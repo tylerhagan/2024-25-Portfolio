@@ -340,7 +340,7 @@ a.opener:hover {
 .card-system {
     background: rgba(255,255,255,.3);
     border-radius: var(--img-radius);
-    margin: 1rem -2rem 0;
+    margin: 1rem 0 0;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -376,15 +376,6 @@ a.opener:hover {
 }
 .skills.card {
     padding: 1rem;
-}
-#concepts > div > div > div:nth-child(2) > a {
-    margin: 0 1rem 0 -2rem;
-}
-#concepts > div > div > div:nth-child(3) > a {
-    margin: 0 -.5rem;
-}
-#concepts > div > div > div:nth-child(4) > a {
-    margin: 0 -2rem 0 1rem;
 }
 .splide__slide {
     padding: 0 .15rem;
