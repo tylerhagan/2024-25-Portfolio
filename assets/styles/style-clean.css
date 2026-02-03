@@ -12,9 +12,11 @@
 * { box-sizing: border-box; }
 html, body {
  font-family: 'Satoshi-Variable', Arial, Helvetica, sans-serif;
- background: #fafafa;
  color: var(--content);
  scroll-behavior: smooth;
+ background: #f1f1ee url("../img/textured-paper.png");
+ background-attachment: fixed;
+
 }
 /* Typography */
 @font-face {
@@ -109,9 +111,12 @@ img {
 .navigation { 
     position: sticky;
     top: 0;
-    background: rgba(250,250,250,0.9);
+    background: rgb(216 216 215 / 80%);
     backdrop-filter: blur(20px);
     z-index: 999;
+}
+.navigation header > section.navbar-section.logo.column > a {
+    font-weight: 500;
 }
 .navbar-section.items > * { 
     font-weight: bold;
@@ -151,13 +156,31 @@ img {
 .project .media {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    background: rgb(201, 201, 201);
+    border-radius: var(--img-radius);
+    position: relative;
 }
+
+.project .media:before {
+  content: "";
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  opacity: 0.12;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .project .media > a.opener {
     margin: 1rem -2rem 0;
 }
 .project .chip {
     border-radius: 5px;
-    padding: 10px;
+    padding: .75rem .5rem;
+    background: rgba(0, 0, 0, 0.05);
 }
 .project .chip .avatar { 
     border-radius: 3px;
