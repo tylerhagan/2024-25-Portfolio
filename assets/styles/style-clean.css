@@ -224,7 +224,7 @@ footer .logo { width: 64px; }
 footer h4 { font-size: 3rem; margin: 3rem 0 4rem; text-transform: none; }
 footer p { margin: 0; }
 footer svg {
-    stroke: var(--light);
+    stroke: #444;
     overflow: hidden;
     vertical-align: middle;
 }
