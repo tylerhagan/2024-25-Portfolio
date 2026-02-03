@@ -180,7 +180,7 @@ img {
 }
 
 .project .media > a.opener {
-    margin: .4rem 0;
+    margin: .05rem -.35rem;
 }
 .project .chip {
     border-radius: 5px;
