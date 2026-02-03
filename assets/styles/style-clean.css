@@ -146,6 +146,11 @@ img {
     font-size: 3.2rem;
     letter-spacing: -2px;
 }
+.header h2+p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
 /* Projects */
 .project:not(:first-child) {
     margin: 2rem 0 0;
@@ -333,7 +338,7 @@ a.opener:hover {
     color: #2c3e50;
 }
 .card-system {
-    background: #fff;
+    background: rgba(255,255,255,.3);
     border-radius: var(--img-radius);
     margin: 1rem -2rem 0;
     padding: 1rem 2rem;
