@@ -38,6 +38,8 @@ a, a.btn, a.btn.btn-link, a:visited {
 a:hover { color: var(--title); }
 h1, h2, h3, h4, h5, h6 {
     color: var(--title);
+    font-family: "Noto Sans", sans-serif;
+
 }
 h3 { font-size: 1.8rem; }
 h4 { font-size: 1.6rem; }
@@ -111,12 +113,12 @@ img {
 .navigation { 
     position: sticky;
     top: 0;
-    background: rgb(216 216 215 / 10%);
+    background: rgb(216 216 215 / 80%);
     backdrop-filter: blur(20px);
     z-index: 999;
 }
 .navigation header > section.navbar-section.logo.column > a {
-    font-weight: 500;
+    font-weight: 600;
 }
 .navbar-section.items > * { 
     font-weight: bold;
@@ -157,6 +159,19 @@ img {
 }
 .project .title {
     margin: 2rem 0;
+    font-weight: 800;
+}
+.project .btn.btn-sm {
+    border-radius: 5px;
+    padding: 0.1rem .5rem;
+    border: 1px solid rgba(255, 255, 255, .4);
+    background: rgba(255, 255, 255, .4);
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+}
+.project .btn.btn-sm:hover {
+    box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease-in-out;
 }
 .project .media {
     margin-top: 1rem;
