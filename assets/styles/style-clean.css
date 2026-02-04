@@ -144,7 +144,7 @@ img {
     padding: 12vh 0 24vh;
 }
 .header h2 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 3.2rem;
     letter-spacing: -2px;
 }
@@ -159,7 +159,7 @@ img {
 }
 .project .title {
     margin: 2rem 0;
-    font-weight: 800;
+    font-weight: 600;
 }
 .project .btn.btn-sm {
     border-radius: 5px;
