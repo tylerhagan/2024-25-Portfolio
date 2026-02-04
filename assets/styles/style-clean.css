@@ -113,7 +113,8 @@ img {
 .navigation { 
     position: sticky;
     top: 0;
-    background: rgb(216 216 215 / 80%);
+    background: rgba(255, 255, 255, 0.5) url(../img/textured-paper.png);
+    background-attachment: fixed;
     backdrop-filter: blur(20px);
     z-index: 999;
 }
