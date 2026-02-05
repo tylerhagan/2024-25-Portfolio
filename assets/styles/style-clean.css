@@ -120,6 +120,8 @@ img {
 }
 .navigation header > section.navbar-section.logo.column > a {
     font-weight: 600;
+    display: flex;
+    vertical-align: middle;
 }
 .navbar-section.items > * { 
     font-weight: bold;
